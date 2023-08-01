@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="reserve">
+        <div class="reserve__content">
+            <form action="#" class="reserve__form">
+                <p class="reserve__form-title">Reserve</p>
+                <input type="text" placeholder="Name" class="reserve__form-input reserve__input-name">
+                <input type="text" placeholder="Phone" class="reserve__form-input reserve__input-phone">
+                <button class="reserve__form-button">Send</button>
+            </form>
+            <p class="reserve__error"></p>
+            <p class="reserve__success">Successfully</p>
+            <div class="reserve__close">
+                <svg enable-background="new 0 0 32 32" class="reserve__close-icon" width="25" height="25"  id="Слой_1" version="1.1" viewBox="0 0 32 32"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M17.459,16.014l8.239-8.194c0.395-0.391,0.395-1.024,0-1.414c-0.394-0.391-1.034-0.391-1.428,0  l-8.232,8.187L7.73,6.284c-0.394-0.395-1.034-0.395-1.428,0c-0.394,0.396-0.394,1.037,0,1.432l8.302,8.303l-8.332,8.286  c-0.394,0.391-0.394,1.024,0,1.414c0.394,0.391,1.034,0.391,1.428,0l8.325-8.279l8.275,8.276c0.394,0.395,1.034,0.395,1.428,0  c0.394-0.396,0.394-1.037,0-1.432L17.459,16.014z" fill="#121313" id="Close"/><g/><g/><g/><g/><g/><g/></svg>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="header container">
+            <a href="/" class="header__logo">
+                <img src="./assets/img/logo.png" alt="tzeezotje" class="header__logo-img">
+            </a>
+            <div class="header__container">
+                <ul class="header__nav">
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">À la carte</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Wijnkaart</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Lunchmenu</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Contact</a></li>
+                </ul>
+                <a href="tel:+3292825725" class="header__call">
+                    <img src="./assets/img/call.svg" alt="call" class="header__call-icon">
+                    <span class="header__call-phone">+32 9 282 57 25</span>
+                </a>
+            </div>
+            <div class="header__burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="greetings container">
+            <h2 class="greetings__subtitle">OPEN EVERYDAY 6AM - 9PM</h2>
+            <h1 class="greetings__title">A bad day with lunch is better than a good day without it.</h1>
+            <div class="greetings__nav">
+                <button class="greetings__nav-link">Reserve a table</button>
+                <ul class="greetings__social">
+                    <li class="greetings__social-item"><a href="#" class="greetings__social-link">Fb</a></li>
+                    <li class="greetings__social-item"><a href="#" class="greetings__social-link">Ig</a></li>
+                    <li class="greetings__social-item"><a href="#" class="greetings__social-link">Tw</a></li>
+                    <li class="greetings__social-item"><a href="#" class="greetings__social-link">Yt</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="schedule">
+        <div class="container">
+            <div class="list">
+                <div class="list__item">
+                    <div class="list__item-title">Woensdag 12/01</div>
+                    <div class="list__row">
+                        <div class="list__row-dish">Salade met Serrano</div>
+                        <div class="list__dots">
+                            <span class="list__dots-inner"></span>
+                            <span class="list__dots-inner"></span>
+                            <span class="list__dots-inner"></span>
+                        </div>
+                        <div class="list__row-dish">Steak Tartaar</div>
+                    </div>
+                </div>
+                <div class="list__item">
+                    <div class="list__item-title">Donderdag 13/01</div>
+                    <div class="list__row">
+                        <div class="list__row-dish">Toast Roquefort</div>
+                        <div class="list__dots">
+                            <span class="list__dots-inner"></span>
+                            <span class="list__dots-inner"></span>
+                            <span class="list__dots-inner"></span>
+                        </div>
+                        <div class="list__row-dish">Penne met Kip en Prei</div>
+                    </div>
+                </div>
+                <div class="list__item">
+                    <div class="list__item-title">Vrijdag 14/01</div>
+                    <div class="list__row">
+                        <div class="list__row-dish">Verrassing van de Chef</div>
+                        <div class="list__dots">
+                            <span class="list__dots-inner"></span>
+                            <span class="list__dots-inner"></span>
+                            <span class="list__dots-inner"></span>
+                        </div>
+                        <div class="list__row-dish">Penne met Kip en Prei</div>
+                    </div>
+                </div>
+                <div class="list__item">
+                    <div class="list__item-title">Vrijdag 15/01</div>
+                    <div class="list__row">
+                        <div class="list__row-dish">Verrassing van de Chef</div>
+                        <div class="list__dots">
+                            <span class="list__dots-inner"></span>
+                            <span class="list__dots-inner"></span>
+                            <span class="list__dots-inner"></span>
+                        </div>
+                        <div class="list__row-dish">Penne met Kip en Prei</div>
+                    </div>
+                </div>
+                <div class="list__item">
+                    <div class="list__item-title">Vrijdag 16/01</div>
+                    <div class="list__row">
+                        <div class="list__row-dish">Verrassing van de Chef</div>
+                        <div class="list__dots">
+                            <span class="list__dots-inner"></span>
+                            <span class="list__dots-inner"></span>
+                            <span class="list__dots-inner"></span>
+                        </div>
+                        <div class="list__row-dish">Penne met Kip en Prei</div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="./assets/img/list1.png" alt="" class="gallery__item">
+                <img src="./assets/img/list2.png" alt="" class="gallery__item">
+                <span class="gallery__decoration"></span>
+            </div>
+        </div>
+    </div>
+    <div class="reviews">
+        <div class="container">
+            <svg class="slider__nav-left" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
+                <path d="M43.8958 11.9L24.8791 30.9166C22.6333 33.1625 22.6333 36.8375 24.8791 39.0833L43.8958 58.1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div class="slider swiper">
+                <div class="slider__wrapper swiper-wrapper">
+                    <div class="slider__slide swiper-slide">
+                        <div class="slider__item">
+                            <img class="slider__item-icon" src="./assets/img/review.svg" alt="reviews">
+                            <div class="slider__item-title">Goede service, lekker eten, toffe ambiance</div>
+                            <div class="slider__item-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.</div>
+                            <div class="slider__item-author">ALAIN HEYNDRICKX</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider__item">
+                            <img class="slider__item-icon" src="./assets/img/review.svg" alt="reviews">
+                            <div class="slider__item-title">Goede service, lekker eten, toffe ambiance</div>
+                            <div class="slider__item-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.</div>
+                            <div class="slider__item-author">ALAIN HEYNDRICKX</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider__item">
+                            <img class="slider__item-icon" src="./assets/img/review.svg" alt="reviews">
+                            <div class="slider__item-title">Goede service, lekker eten, toffe ambiance</div>
+                            <div class="slider__item-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.</div>
+                            <div class="slider__item-author">ALAIN HEYNDRICKX</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <svg class="slider__nav-right" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
+                <path d="M26.1042 11.9L45.1209 30.9166C47.3667 33.1625 47.3667 36.8375 45.1209 39.0833L26.1042 58.1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="assets/scripts/app.js" defer></script>
+</body>
+</html>
